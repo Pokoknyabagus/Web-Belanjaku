@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="image/logo-no-background.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Belanjaku - Checkout</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- intro start -->
+    <div class="container-fluid bg-white">
+      <div class="row">
+        <div class="col py-3 px-4 d-flex">
+          <a class="nav-link me-auto" href="#">Download App</a>
+          <a class="nav-link me-30px" href="#">Bantuan</a>
+          <a class="nav-link" href="#">Tentang</a>
+        </div>
+      </div>
+    </div>
+    <!-- intro end -->
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg bg-warning px-4">
+      <div class="container-fluid px-0">
+        <a class="navbar-brand" href="index.html"><img src="image/Logo/logo-no-background.png" alt="logo" height="40px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
+          <form class="d-flex py-md-3 w-75" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+          <div class="position-relative" style="width: 32px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="48px" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+              <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+            </svg>
+            <div class="bg-danger rounded-circle d-flex justify-content-center text-white open-sans position-absolute top-0 end-0 fs-12px" style="height: 20px; width: 20px">1</div>
+          </div>
+          <form class="d-flex flex-md-column flex-lg-row" role="search">
+            <a href="login.html" role="button" class="btn btn-light fw-bold mb-md-2 mb-lg-0 me-lg-4" type="button">Login</a>
+            <a href="daftar.html" role="button" class="btn btn-outline-light fw-bold" type="button">Sign up</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- main start -->
+    <main>
+      <!-- section-1 start -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col px-4 py-3">
+            <div class="text-dark fw-bold fs-2">Pembayaran</div>
+          </div>
+        </div>
+      </div>
+      <!-- section-1 end -->
+
+      <!-- section-2 start -->
+      <div class="container-fluid px-0">
+        <div class="row justify-content-center gap-2">
+          <div class="col-md-6 col-lg-6">
+            <div class="p-2 d-flex flex-column gap-4 bg-light rounded-2">
+              <div class="p-2 d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-2 align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="27" height="25" viewBox="0 0 27 25" fill="none">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.0512 4.12934L23.4914 14.5696V21.8899C23.4914 22.5822 23.2164 23.246 22.7269 23.7355C22.2375 24.225 21.5736 24.5 20.8814 24.5H5.221C4.52877 24.5 3.86489 24.225 3.37541 23.7355C2.88593 23.246 2.61094 22.5822 2.61094 21.8899V14.5696L13.0512 4.12934ZM21.7514 2.74949V8.83963L18.2713 5.35955V2.74949C18.2713 2.51875 18.363 2.29746 18.5261 2.1343C18.6893 1.97114 18.9106 1.87947 19.1413 1.87947H20.8814C21.1121 1.87947 21.3334 1.97114 21.4966 2.1343C21.6597 2.29746 21.7514 2.51875 21.7514 2.74949Z"
+                      fill="black"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11.8212 1.00946C12.1475 0.683253 12.59 0.5 13.0514 0.5C13.5128 0.5 13.9553 0.683253 14.2816 1.00946L25.8477 12.5738C26.011 12.7371 26.1028 12.9587 26.1028 13.1897C26.1028 13.4208 26.011 13.6423 25.8477 13.8057C25.6843 13.9691 25.4627 14.0609 25.2317 14.0609C25.0006 14.0609 24.7791 13.9691 24.6157 13.8057L13.0514 2.23967L1.48709 13.8057C1.32373 13.9691 1.10215 14.0609 0.871119 14.0609C0.640084 14.0609 0.418511 13.9691 0.255145 13.8057C0.0917784 13.6423 0 13.4208 0 13.1897C0 12.9587 0.0917784 12.7371 0.255145 12.5738L11.8212 1.00946Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <p class="text-dark fw-bold m-0 open-sans">Kirim Kemana ?</p>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-light dropdown-toggle open-sans text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">Pilih alamat lain</button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="d-flex gap-2 mb-2">
+                  <p class="open-sans m-0">Cristofer Aminoff - 0821-846-0979</p>
+                  <span class="badge bg-warning fw-bold text-dark open-sans">Utama</span>
+                </div>
+                <p class="open-sans fw-bold m-0 text-dark">Medan</p>
+              </div>
+              <div class="p-2 d-flex flex-column gap-2">
+                <p class="open-sans text-dark m-0">Alamat lengkap</p>
+                <div class="p-2 open-sans text-dark w-50">Jl Veteran PSr IV Helvetia, Sumatera Utara , Indonesia.</div>
+                <a class="open-sans text-dark" href="#">Edit lengkap</a>
+              </div>
+              <div class="p-2">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label text-decoration-underline open-sans" for="flexCheckDefault"> Kirim sebagai dropshipper </label>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 d-flex flex-column gap-4 mt-4 bg-light rounded-2">
+              <div class="p-2 d-flex flex-column justify-content-between gap-2">
+                <div class="d-flex gap-2 align-items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
+                    <path
+                      d="M4.752 0.56C4.90222 0.384375 5.0887 0.243377 5.29861 0.146706C5.50853 0.0500345 5.7369 -1.52011e-05 5.968 3.46317e-09H19.632C19.8631 -1.52011e-05 20.0915 0.0500345 20.3014 0.146706C20.5113 0.243377 20.6978 0.384375 20.848 0.56L25.0224 5.4304C25.3951 5.86533 25.6 6.41922 25.6 6.992V7.4C25.6001 8.19196 25.3527 8.96416 24.8925 9.60868C24.4323 10.2532 23.7822 10.7378 23.0331 10.9948C22.284 11.2518 21.4733 11.2683 20.7143 11.042C19.9554 10.8158 19.2861 10.358 18.8 9.7328C18.445 10.19 17.9901 10.56 17.4701 10.8143C16.9501 11.0686 16.3788 11.2005 15.8 11.2C15.2211 11.2006 14.6498 11.0688 14.1298 10.8144C13.6098 10.5601 13.1549 10.1901 12.8 9.7328C12.4451 10.1901 11.9902 10.5601 11.4702 10.8144C10.9502 11.0688 10.3789 11.2006 9.8 11.2C9.22113 11.2006 8.6498 11.0688 8.12979 10.8144C7.60978 10.5601 7.15489 10.1901 6.8 9.7328C6.31391 10.358 5.64461 10.8158 4.88566 11.042C4.12671 11.2683 3.31603 11.2518 2.56692 10.9948C1.81781 10.7378 1.16772 10.2532 0.707492 9.60868C0.247267 8.96416 -8.73577e-05 8.19196 2.31433e-08 7.4V6.992C2.01721e-05 6.41922 0.204891 5.86533 0.5776 5.4304L4.7536 0.5584L4.752 0.56ZM7.6 7.4C7.6 7.98348 7.83179 8.54306 8.24436 8.95564C8.65695 9.36822 9.21652 9.6 9.8 9.6C10.3835 9.6 10.9431 9.36822 11.3556 8.95564C11.7682 8.54306 12 7.98348 12 7.4C12 7.18783 12.0843 6.98434 12.2343 6.83431C12.3843 6.68429 12.5878 6.6 12.8 6.6C13.0122 6.6 13.2157 6.68429 13.3657 6.83431C13.5157 6.98434 13.6 7.18783 13.6 7.4C13.6 7.98348 13.8318 8.54306 14.2444 8.95564C14.6569 9.36822 15.2165 9.6 15.8 9.6C16.3835 9.6 16.9431 9.36822 17.3556 8.95564C17.7682 8.54306 18 7.98348 18 7.4C18 7.18783 18.0843 6.98434 18.2343 6.83431C18.3843 6.68429 18.5878 6.6 18.8 6.6C19.0122 6.6 19.2157 6.68429 19.3657 6.83431C19.5157 6.98434 19.6 7.18783 19.6 7.4C19.6 7.98348 19.8318 8.54306 20.2444 8.95564C20.6569 9.36822 21.2165 9.6 21.8 9.6C22.3835 9.6 22.9431 9.36822 23.3556 8.95564C23.7682 8.54306 24 7.98348 24 7.4V6.992C24 6.80132 23.9319 6.61691 23.808 6.472L19.632 1.6H5.968L1.792 6.472C1.66808 6.61691 1.59999 6.80132 1.6 6.992V7.4C1.6 7.98348 1.83179 8.54306 2.24437 8.95564C2.65695 9.36822 3.21652 9.6 3.8 9.6C4.38348 9.6 4.94306 9.36822 5.35564 8.95564C5.76822 8.54306 6 7.98348 6 7.4C6 7.18783 6.08429 6.98434 6.23431 6.83431C6.38434 6.68429 6.58783 6.6 6.8 6.6C7.01217 6.6 7.21566 6.68429 7.36569 6.83431C7.51571 6.98434 7.6 7.18783 7.6 7.4ZM2.4 12C2.61217 12 2.81566 12.0843 2.96569 12.2343C3.11571 12.3843 3.2 12.5878 3.2 12.8V22.4H4.8V14.4C4.8 13.9757 4.96857 13.5687 5.26863 13.2686C5.56869 12.9686 5.97565 12.8 6.4 12.8H11.2C11.6243 12.8 12.0313 12.9686 12.3314 13.2686C12.6314 13.5687 12.8 13.9757 12.8 14.4V22.4H22.4V12.8C22.4 12.5878 22.4843 12.3843 22.6343 12.2343C22.7843 12.0843 22.9878 12 23.2 12C23.4122 12 23.6157 12.0843 23.7657 12.2343C23.9157 12.3843 24 12.5878 24 12.8V22.4H24.8C25.0122 22.4 25.2157 22.4843 25.3657 22.6343C25.5157 22.7843 25.6 22.9878 25.6 23.2C25.6 23.4122 25.5157 23.6157 25.3657 23.7657C25.2157 23.9157 25.0122 24 24.8 24H0.8C0.587827 24 0.384344 23.9157 0.234315 23.7657C0.0842855 23.6157 2.31433e-08 23.4122 2.31433e-08 23.2C2.31433e-08 22.9878 0.0842855 22.7843 0.234315 22.6343C0.384344 22.4843 0.587827 22.4 0.8 22.4H1.6V12.8C1.6 12.5878 1.68429 12.3843 1.83431 12.2343C1.98434 12.0843 2.18783 12 2.4 12ZM6.4 22.4H11.2V14.4H6.4V22.4ZM14.4 14.4C14.4 13.9757 14.5686 13.5687 14.8686 13.2686C15.1687 12.9686 15.5757 12.8 16 12.8H19.2C19.6243 12.8 20.0313 12.9686 20.3314 13.2686C20.6314 13.5687 20.8 13.9757 20.8 14.4V19.2C20.8 19.6243 20.6314 20.0313 20.3314 20.3314C20.0313 20.6314 19.6243 20.8 19.2 20.8H16C15.5757 20.8 15.1687 20.6314 14.8686 20.3314C14.5686 20.0313 14.4 19.6243 14.4 19.2V14.4ZM19.2 14.4H16V19.2H19.2V14.4Z"
+                      fill="black"
+                    />
+                  </svg>
+                  <p class="text-dark fw-bold m-0 open-sans">Store.</p>
+                  <span class="badge bg-warning fw-bold text-dark open-sans">official</span>
+                </div>
+                <div class="open-sans fw-bold">Tanggerang</div>
+              </div>
+              <div class="p-2 d-flex flex-md-column flex-lg-row justify-content-lg-between align-items-lg-center gap-3">
+                <div class="d-flex gap-3 align-items-center">
+                  <img src="image/Card/card index/card (3).png" alt="sepatu" style="width: 100px" />
+                  <p class="m-0 open-sans fw-bold text-dark">Sepatu</p>
+                </div>
+                <div class="input-group w-25">
+                  <input type="number" class="form-control" placeholder="pcs" aria-label="Username" aria-describedby="basic-addon1" />
+                </div>
+                <div class="open-sans fw-bold text-dark">Rp 191.520</div>
+              </div>
+              <div class="p-2">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Catatan pembeli"></textarea>
+              </div>
+              <div class="mt-4 mb-4 dropdown border rounded-2">
+                <button class="btn btn-close-white dropdown-toggle open-sans w-100 p-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div class="d-flex justify-content-start gap-3">
+                    <img src="image/Jasa Pengiriman/jne.png" alt="JNE" style="height: 25px" />
+                    <div class="open-sans fs-12px">JNE Reg</div>
+                    <div class="open-sans fs-12px">2-3 Hari</div>
+                    <div class="open-sans fs-12px">Rp 11.000</div>
+                  </div>
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="p-3">
+                    <a class="dropdown-item" href="#">
+                      <div class="d-flex justify-content-start gap-3">
+                        <img src="image/Jasa Pengiriman/anteraja.png" alt="JNE" style="height: 25px" />
+                        <div class="open-sans fs-12px">Anteraja</div>
+                        <div class="open-sans fs-12px">2-3 Hari</div>
+                        <div class="open-sans fs-12px">Rp 11.000</div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="p-3">
+                    <a class="dropdown-item" href="#">
+                      <div class="d-flex justify-content-start gap-3">
+                        <img src="image/Jasa Pengiriman/jnt.png" alt="JNE" style="height: 25px" />
+                        <div class="open-sans fs-12px">JNT Reg</div>
+                        <div class="open-sans fs-12px">2-3 Hari</div>
+                        <div class="open-sans fs-12px">Rp 11.000</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-3 offset-md-0 offset-lg-1">
+            <div class="p-3 d-flex flex-column gap-2 bg-light rounded-2">
+              <div class="p-2 d-flex align-items-center">
+                <a href="#" class="p-2 d-flex gap-2 text-decoration-none align-items-center">
+                  <div class="bg-warning rounded-circle d-flex justify-content-center align-items-center" style="width: 40px; height: 40px">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        id="Vector"
+                        d="M15.256 0.744C15.3334 0.821385 15.3948 0.913261 15.4367 1.01438C15.4786 1.1155 15.5002 1.22388 15.5002 1.33333C15.5002 1.44279 15.4786 1.55117 15.4367 1.65229C15.3948 1.75341 15.3334 1.84528 15.256 1.92267L1.92267 15.256C1.84527 15.3334 1.7534 15.3948 1.65228 15.4367C1.55116 15.4786 1.44278 15.5001 1.33333 15.5001C1.22388 15.5001 1.11551 15.4786 1.01439 15.4367C0.91327 15.3948 0.821392 15.3334 0.744 15.256C0.666608 15.1786 0.605217 15.0867 0.563332 14.9856C0.521448 14.8845 0.49989 14.7761 0.49989 14.6667C0.49989 14.5572 0.521448 14.4488 0.563332 14.3477C0.605217 14.2466 0.666608 14.1547 0.744 14.0773L14.0773 0.744C14.1547 0.666595 14.2466 0.605192 14.3477 0.5633C14.4488 0.521407 14.5572 0.499845 14.6667 0.499845C14.7761 0.499845 14.8845 0.521407 14.9856 0.5633C15.0867 0.605192 15.1786 0.666595 15.256 0.744ZM3.33333 5.33333C2.8029 5.33333 2.29419 5.12262 1.91912 4.74755C1.54405 4.37247 1.33333 3.86377 1.33333 3.33333C1.33333 2.8029 1.54405 2.29419 1.91912 1.91912C2.29419 1.54405 2.8029 1.33333 3.33333 1.33333C3.86377 1.33333 4.37247 1.54405 4.74755 1.91912C5.12262 2.29419 5.33333 2.8029 5.33333 3.33333C5.33333 3.86377 5.12262 4.37247 4.74755 4.74755C4.37247 5.12262 3.86377 5.33333 3.33333 5.33333ZM3.33333 6.66667C4.21739 6.66667 5.06523 6.31548 5.69036 5.69036C6.31548 5.06523 6.66667 4.21739 6.66667 3.33333C6.66667 2.44928 6.31548 1.60143 5.69036 0.976311C5.06523 0.351189 4.21739 0 3.33333 0C2.44928 0 1.60143 0.351189 0.976311 0.976311C0.351189 1.60143 0 2.44928 0 3.33333C0 4.21739 0.351189 5.06523 0.976311 5.69036C1.60143 6.31548 2.44928 6.66667 3.33333 6.66667ZM12.6667 14.6667C12.1362 14.6667 11.6275 14.456 11.2525 14.0809C10.8774 13.7058 10.6667 13.1971 10.6667 12.6667C10.6667 12.1362 10.8774 11.6275 11.2525 11.2525C11.6275 10.8774 12.1362 10.6667 12.6667 10.6667C13.1971 10.6667 13.7058 10.8774 14.0809 11.2525C14.456 11.6275 14.6667 12.1362 14.6667 12.6667C14.6667 13.1971 14.456 13.7058 14.0809 14.0809C13.7058 14.456 13.1971 14.6667 12.6667 14.6667ZM12.6667 16C13.5507 16 14.3986 15.6488 15.0237 15.0237C15.6488 14.3986 16 13.5507 16 12.6667C16 11.7826 15.6488 10.9348 15.0237 10.3096C14.3986 9.68452 13.5507 9.33333 12.6667 9.33333C11.7826 9.33333 10.9348 9.68452 10.3096 10.3096C9.68452 10.9348 9.33333 11.7826 9.33333 12.6667C9.33333 13.5507 9.68452 14.3986 10.3096 15.0237C10.9348 15.6488 11.7826 16 12.6667 16Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                  <p class="m-0 open-sans text-dark">Punya kode voucher ?</p>
+                </a>
+              </div>
+              <hr />
+              <div class="open-sans fw-bold">Rincian Harga</div>
+              <div class="d-flex flex-column gap-1">
+                <p class="open-sans fw-bold m-0">Total belanja</p>
+                <div class="d-flex justify-content-between">
+                  <p class="open-sans m-0">Total harga (1barang)</p>
+                  <p class="open-sans fw-bold m-0">Rp 191.520</p>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex flex-column gap-1">
+                <p class="open-sans fw-bold m-0">Biaya transaksi</p>
+                <div class="d-flex justify-content-between">
+                  <p class="open-sans m-0">Biaya layanan</p>
+                  <p class="open-sans fw-bold m-0">Rp 1.500</p>
+                </div>
+              </div>
+              <hr />
+              <div class="d-flex justify-content-between">
+                <p class="open-sans m-0 fw-bold fs-5">Total tagihan</p>
+                <p class="open-sans fw-bold m-0 fs-5">Rp 193.020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section-2 end -->
+      <hr class="mt-80px mb-80px" />
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container-fluid p-0 mb-80px">
+        <div class="row justify-content-center px-md-4 px-lg-0">
+          <div class="col-lg-3 p-3 d-flex flex-column align-items-center mb-4">
+            <img class="img-fluid" src="image/Logo/logo-no-background.png" alt="logo" width="176px" />
+            <div class="d-flex gap-3 my-3 py-3">
+              <div class="open-sans fs-12px text-dark">Temukan kami di :</div>
+              <img src="image/Media sosial/facebook.png" alt="facebook" />
+              <img src="image/Media sosial/twitter.png" alt="twitter" />
+              <img src="image/Media sosial/instagram.png" alt="instagram" />
+              <img src="image/Media sosial/youtube.png" alt="youtube" />
+              <img src="image/Media sosial/linkedin.png" alt="linkedin" />
+            </div>
+            <div class="d-flex gap-2 p-3">
+              <img src="image/playstore.png" alt="playstore" />
+              <img src="image/app store.png" alt="appstore" />
+            </div>
+          </div>
+          <div class="offset-md-0 offset-lg-1 col-lg-6 p-0 d-flex justify-content-between">
+            <div class="p-3">
+              <div class="fw-bold fs-4 mb-4">Belanjaku</div>
+              <div>
+                <a href="#" class="nav-link open-sans pb-3">Tentang Belanjaku</a>
+                <a href="#" class="nav-link open-sans pb-3">Karir</a>
+                <a href="#" class="nav-link open-sans pb-3">Blog</a>
+                <a href="#" class="nav-link open-sans pb-3">Mitra blog</a>
+                <a href="#" class="nav-link open-sans pb-3">Aturan pengguna</a>
+                <a href="#" class="nav-link open-sans pb-3">Kebijakan privasi</a>
+              </div>
+            </div>
+            <div class="p-3">
+              <div class="fw-bold fs-4 mb-4">Beli</div>
+              <div>
+                <a href="#" class="nav-link open-sans pb-3">Tagihan & Top up</a>
+                <a href="#" class="nav-link open-sans pb-3">Cara belanja</a>
+                <a href="#" class="nav-link open-sans pb-3">Belanjaku COD</a>
+                <a href="#" class="nav-link open-sans pb-3">Jaminan aman</a>
+                <a href="#" class="nav-link open-sans pb-3">Promo</a>
+                <a href="#" class="nav-link open-sans pb-3">Belanjaku preview</a>
+              </div>
+            </div>
+            <div class="p-3">
+              <div class="fw-bold fs-4 mb-4">Jual</div>
+              <div>
+                <a href="#" class="nav-link open-sans pb-3">Pusat edukasi seller</a>
+                <a href="#" class="nav-link open-sans pb-3">Daftar official store</a>
+                <a href="#" class="nav-link open-sans pb-3">Keuntungan berjualan</a>
+                <a href="#" class="nav-link open-sans pb-3">Cara berjualan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="continer-fluid p-3 fw-bold text-center bg-warning">© 2022 - 2023, PT. Belanjaku.</div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  </body>
+</html>

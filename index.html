@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="image/logo-no-background.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Belanjaku - Home</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- intro start -->
+    <div class="container-fluid bg-white">
+      <div class="row">
+        <div class="col py-3 px-4 d-flex">
+          <a class="nav-link me-auto" href="#">Download App</a>
+          <a class="nav-link me-30px" href="#">Bantuan</a>
+          <a class="nav-link" href="#">Tentang</a>
+        </div>
+      </div>
+    </div>
+    <!-- intro end -->
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg bg-warning px-4">
+      <div class="container-fluid px-0">
+        <a class="navbar-brand" href="index.html"><img src="image/Logo/logo-no-background.png" alt="logo" height="40px" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
+          <form class="d-flex py-md-3 w-75" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+          <div class="position-relative" style="width: 32px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28px" height="48px" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+              <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+            </svg>
+            <div class="bg-danger rounded-circle d-flex justify-content-center text-white open-sans position-absolute top-0 end-0 fs-12px" style="height: 20px; width: 20px">1</div>
+          </div>
+          <form class="d-flex flex-md-column flex-lg-row" role="search">
+            <a href="login.html" role="button" class="btn btn-light fw-bold mb-md-2 mb-lg-0 me-lg-4" type="button">Login</a>
+            <a href="daftar.html" role="button" class="btn btn-outline-light fw-bold" type="button">Sign up</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- main start -->
+    <main>
+      <!-- section-1 start -->
+      <div class="container-fluid p-0 mt-4">
+        <div class="row justify-content-center">
+          <div class="col-10 px-0">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner rounded-1" style="height: 300px">
+                <div class="carousel-item active">
+                  <img src="image/Carousel/1.jpg" class="d-block w-100" alt="1" />
+                </div>
+                <div class="carousel-item">
+                  <img src="image/Carousel/2.jpg" class="d-block w-100" alt="2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="image/Carousel/3.jpg" class="d-block w-100" alt="3" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="" aria-hidden="true">
+                  <div class="opacity-100 bg-white d-flex justify-content-center align-items-center rounded-circle shadow" style="width: 60px; height: 60px">
+                    <i class="bi bi-chevron-left fs-3 open-sans text-dark fw-bold"></i>
+                  </div>
+                </span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="" aria-hidden="true">
+                  <div class="opacity-100 bg-white d-flex justify-content-center align-items-center rounded-circle shadow" style="width: 60px; height: 60px">
+                    <i class="bi bi-chevron-right fs-3 open-sans text-dark fw-bold"></i>
+                  </div>
+                </span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section-1 end -->
+
+      <!-- section-2 start -->
+      <div class="container-fluid p-0 mt-80px mb-80px">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-10 px-md-4 px-lg-0">
+            <div class="fs-4 fw-bold text-warning mb-4">Kategori</div>
+            <div class="row">
+              <div class="col pe-0">
+                <a href="kategori.html" class="text-decoration-none">
+                  <div class="card h-128px h-208px">
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                      <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="mb-4 h-48px" src="image/icon/rumah.png" alt="rumah" />
+                        <div class="fw-bold text-dark text-center open-sans">Rumah</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col pe-0">
+                <a href="kategori.html" class="text-decoration-none">
+                  <div class="card h-128px h-208px">
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                      <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="mb-4 h-48px" src="image/icon/motor.png" alt="motor" />
+                        <div class="fw-bold text-dark text-center open-sans">Motor</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col pe-0">
+                <a href="kategori.html" class="text-decoration-none">
+                  <div class="card h-128px h-208px">
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                      <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="mb-4 h-48px" src="image/icon/buku.png" alt="buku" />
+                        <div class="fw-bold text-dark text-center open-sans">Buku</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col pe-0">
+                <a href="kategori.html" class="text-decoration-none">
+                  <div class="card h-128px h-208px">
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                      <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="mb-4 h-48px" src="image/icon/elektronik.png" alt="electronik" />
+                        <div class="fw-bold text-dark text-center open-sans">Elektronik</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col pe-3">
+                <a href="kategori.html" class="text-decoration-none">
+                  <div class="card h-128px h-208px">
+                    <div class="card-body d-flex align-items-center justify-content-center">
+                      <div class="d-flex justify-content-center align-items-center flex-column">
+                        <img class="mb-4 h-48px" src="image/icon/olahraga.png" alt="olahraga" />
+                        <div class="fw-bold text-dark text-center open-sans">Olahraga</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section-2 end -->
+
+      <!-- section-3 start -->
+      <div class="container-fluid p-0">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-10 px-md-4 px-lg-0">
+            <div class="banner-promo rounded-1" style="height: 400px"></div>
+          </div>
+        </div>
+      </div>
+      <!-- section-3 end -->
+
+      <!-- section-4 start -->
+      <div class="container-fluid p-0 mt-80px mb-80px bg-warning py-4">
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-lg-10 px-4">
+            <div class="d-flex align-items-center justify-content-center py-4 mb-5">
+              <img class="me-4" src="image/icon/Vector.png" alt="star" />
+              <div class="fs-4 fw-bold text-white">Top Populer</div>
+            </div>
+            <div class="row">
+              <div class="col-3 col-lg">
+                <a class="text-decoration-none" href="pembelian.html">
+                  <div class="card border-0 rounded-0 mb-3">
+                    <img src="image/Card/card index/card (3).png" alt="1" />
+                    <div class="card-body">
+                      <div class="card-title fs-5 open-sans m-0">Sepatu</div>
+                      <div class="fs-5 fw-bold open-sans py-2">Rp. 191.520</div>
+                      <div class="open-sans fs-12px text-secondary">Terjual 281</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-3 col-lg">
+                <a class="text-decoration-none" href="pembelian.html">
+                  <div class="card border-0 rounded-0 mb-3">
+                    <img src="image/Card/card index/card (6).png" alt="2" />
+                    <div class="card-body">
+                      <div class="card-title fs-5 open-sans m-0">Monitor</div>
+                      <div class="fs-5 fw-bold open-sans py-2">Rp. 300.000</div>
+                      <div class="open-sans fs-12px text-secondary">Terjual 91</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-3 col-lg">
+                <a class="text-decoration-none" href="pembelian.html">
+                  <div class="card border-0 rounded-0 mb-3">
+                    <img src="image/Card/card index/card (4).png" alt="3" />
+                    <div class="card-body">
+                      <div class="card-title fs-5 open-sans m-0">Tas</div>
+                      <div class="fs-5 fw-bold open-sans py-2">Rp. 215.920</div>
+                      <div class="open-sans fs-12px text-secondary">Terjual 152</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-3 col-lg">
+                <a class="text-decoration-none" href="pembelian.html">
+                  <div class="card border-0 rounded-0 mb-3">
+                    <img src="image/Card/card index/card (5).png" alt="4" />
+                    <div class="card-body">
+                      <div class="card-title fs-5 open-sans m-0">Lampu</div>
+                      <div class="fs-5 fw-bold open-sans py-2">Rp. 142.700</div>
+                      <div class="open-sans fs-12px text-secondary">Terjual 324</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-3 col-lg">
+                <a class="text-decoration-none" href="pembelian.html">
+                  <div class="card border-0 rounded-0 mb-3">
+                    <img src="image/Card/card index/card (2).png" alt="5" />
+                    <div class="card-body">
+                      <div class="card-title fs-5 open-sans m-0">Sepatu</div>
+                      <div class="fs-5 fw-bold open-sans py-2">Rp. 180.210</div>
+                      <div class="open-sans fs-12px text-secondary">Terjual 101</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-3 col-lg">
+                <a class="text-decoration-none" href="pembelian.html">
+                  <div class="card border-0 rounded-0 mb-3">
+                    <img src="image/Card/card index/card (1) 1.png" alt="6" />
+                    <div class="card-body">
+                      <div class="card-title fs-5 open-sans m-0">Jam tangan</div>
+                      <div class="fs-5 fw-bold open-sans py-2">Rp. 438.000</div>
+                      <div class="open-sans fs-12px text-secondary">Terjual 31</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section-4 end -->
+
+      <div class="container-fluid p-0">
+        <div class="row justify-content-center px-md-4 px-lg-0">
+          <div class="col-md-12 col-lg-10 p-0 mb-5">
+            <div class="fs-2 fw-bold pb-4">Belanja online murah di belanjaku</div>
+            <p class="open-sans m-0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+              Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </div>
+          <div class="col-md-12 col-lg-10 p-0">
+            <div class="fs-2 fw-bold pb-4">Keunggulan di belanjaku</div>
+            <ul>
+              <li class="pb-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </li>
+              <li class="pb-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </li>
+              <li class="pb-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </li>
+              <li class="pb-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </li>
+              <li class="pb-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </li>
+              <li class="pb-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="mt-80px mb-80px" />
+      <div class="container-fluid p-0">
+        <div class="row justify-content-center gap-4">
+          <div class="col-md-12 col-lg-10">
+            <div class="px-md-4 px-lg-0">
+              <div class="py-3 text-secondary">Metode pembayaran</div>
+              <div class="d-flex flex-wrap gap-3">
+                <img src="image/Metode pembayaran/Alfamart.png" alt="Alfamart" />
+                <img src="image/Metode pembayaran/akulaku.png" alt="akulaku" />
+                <img src="image/Metode pembayaran/Alfamidi.png" alt="Alfamidi" />
+                <img src="image/Metode pembayaran/Dana.png" alt="Dana" />
+                <img src="image/Metode pembayaran/Indomaret.png" alt="Indomaret" />
+                <img src="image/Metode pembayaran/Kredivo.png" alt="Kredivo" />
+                <img src="image/Metode pembayaran/mastercard.png" alt="mastercard" />
+                <img src="image/Metode pembayaran/Ovo.png" alt="Ovo" />
+                <img src="image/Metode pembayaran/Visa.png" alt="Visa" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-10">
+            <div class="px-md-4 px-lg-0">
+              <div class="py-3 text-secondary">Jasa pengiriman</div>
+              <div class="d-flex flex-wrap gap-3">
+                <img src="image/Jasa Pengiriman/anteraja.png" alt="anteraja" />
+                <img src="image/Jasa Pengiriman/jne.png" alt="jne" />
+                <img src="image/Jasa Pengiriman/jnt.png" alt="jnt" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-10">
+            <div class="px-md-4 px-lg-0">
+              <div class="py-3 text-secondary">Bank transfer</div>
+              <div class="d-flex flex-wrap gap-3">
+                <img src="image/Bank Transfer/MANDIRI.png" alt="MANDIRI" />
+                <img src="image/Bank Transfer/DANAMON.png" alt="DANAMON" />
+                <img src="image/Bank Transfer/CIMB.png" alt="CIMB" />
+                <img src="image/Bank Transfer/BRI.png" alt="BRI" />
+                <img src="image/Bank Transfer/BNI.png" alt="BNI" />
+                <img src="image/Bank Transfer/BCA 1.png" alt="BCA" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-80px mb-80px" />
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container-fluid p-0 mb-80px">
+        <div class="row justify-content-center px-md-4 px-lg-0">
+          <div class="col-lg-3 p-3 d-flex flex-column align-items-center mb-4">
+            <img class="img-fluid" src="image/Logo/logo-no-background.png" alt="logo" width="176px" />
+            <div class="d-flex gap-3 my-3 py-3">
+              <div class="open-sans fs-12px text-dark">Temukan kami di :</div>
+              <img src="image/Media sosial/facebook.png" alt="facebook" />
+              <img src="image/Media sosial/twitter.png" alt="twitter" />
+              <img src="image/Media sosial/instagram.png" alt="instagram" />
+              <img src="image/Media sosial/youtube.png" alt="youtube" />
+              <img src="image/Media sosial/linkedin.png" alt="linkedin" />
+            </div>
+            <div class="d-flex gap-2 p-3">
+              <img src="image/playstore.png" alt="playstore" />
+              <img src="image/app store.png" alt="appstore" />
+            </div>
+          </div>
+          <div class="offset-md-0 offset-lg-1 col-lg-6 p-0 d-flex justify-content-between">
+            <div class="p-3">
+              <div class="fw-bold fs-4 mb-4">Belanjaku</div>
+              <div>
+                <a href="#" class="nav-link open-sans pb-3">Tentang Belanjaku</a>
+                <a href="#" class="nav-link open-sans pb-3">Karir</a>
+                <a href="#" class="nav-link open-sans pb-3">Blog</a>
+                <a href="#" class="nav-link open-sans pb-3">Mitra blog</a>
+                <a href="#" class="nav-link open-sans pb-3">Aturan pengguna</a>
+                <a href="#" class="nav-link open-sans pb-3">Kebijakan privasi</a>
+              </div>
+            </div>
+            <div class="p-3">
+              <div class="fw-bold fs-4 mb-4">Beli</div>
+              <div>
+                <a href="#" class="nav-link open-sans pb-3">Tagihan & Top up</a>
+                <a href="#" class="nav-link open-sans pb-3">Cara belanja</a>
+                <a href="#" class="nav-link open-sans pb-3">Belanjaku COD</a>
+                <a href="#" class="nav-link open-sans pb-3">Jaminan aman</a>
+                <a href="#" class="nav-link open-sans pb-3">Promo</a>
+                <a href="#" class="nav-link open-sans pb-3">Belanjaku preview</a>
+              </div>
+            </div>
+            <div class="p-3">
+              <div class="fw-bold fs-4 mb-4">Jual</div>
+              <div>
+                <a href="#" class="nav-link open-sans pb-3">Pusat edukasi seller</a>
+                <a href="#" class="nav-link open-sans pb-3">Daftar official store</a>
+                <a href="#" class="nav-link open-sans pb-3">Keuntungan berjualan</a>
+                <a href="#" class="nav-link open-sans pb-3">Cara berjualan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="continer-fluid p-3 fw-bold text-center bg-warning">© 2022 - 2023, PT. Belanjaku.</div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  </body>
+</html>

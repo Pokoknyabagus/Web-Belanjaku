@@ -1,0 +1,71 @@
+* {
+    font-family: "hind guntur", sans-serif;
+}
+
+.open-sans {
+    font-family: "open sans", sans-serif;
+}
+
+.fs-12px {
+    font-size: 12px;
+}
+
+.mt-80px {
+    margin-top: 80px;
+}
+
+.mb-80px {
+    margin-bottom: 80px;
+}
+
+.me-30px {
+    margin-right: 30px;
+}
+
+.h-128px {
+    height: 128px;
+}
+
+.banner-promo {
+    background-image: url(../image/Banner/banner\ promo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-rumah-tangga {
+    background-image: url(../image/Banner/banner-rumah\ tangga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-control-prev {
+    margin-left: -96px;
+}
+
+.carousel-control-next {
+    margin-right: -96px;
+}
+
+
+.carousel-item img {
+    object-fit: contain;
+    object-position: center;
+}
+
+@media (min-width: 768px) {
+    .h-48px {
+        height: 48px;
+    }
+}
+
+@media (min-width: 992px) {
+    .w-793px {
+        width: 793px;
+    }
+
+    .h-208px {
+        height: 208px;
+    }
+}
